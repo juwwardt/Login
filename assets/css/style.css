@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #646081;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #D0DBEE;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background-color: #1A1A2E;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.5);
+    margin: 40px 20px;
+}
+
+.form-container {
+    flex: 20%;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #09103A;
+}
+
+.form-container h1 {
+    padding-bottom: 40px;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.form-container label {
+    color: #FAFAFA;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+.form-container input,
+.form-container .btn {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #646081;
+    color: #FAFAFA;
+    box-sizing: border-box;
+    
+}
+
+.form-container .esqueci-senha {
+    width: 100px;
+    margin-left: 322px;
+    display: block;
+    align-self: flex-end;
+    text-align: right;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #CBCAD1;
+}
+
+.form-container .btn {
+    padding: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-container .btn:first-of-type {
+    background-color: #09103A;
+    color: #407BFF;
+    border-color: #D0DBEE;
+    border: 2px solid #D0DBEE;
+    margin-bottom: 12px;
+}
+
+.form-container .btn.cadastrar {
+    background-color: #D0DBEE;
+    color: #4B4864;
+}
+
+.form-container .btn:hover {
+    transform: scale(1.02);
+    transition: all 0.05s;
+}
+
+.img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./imglogin.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-container img {
+    display: none;
+}   
